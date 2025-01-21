@@ -1,0 +1,73 @@
+
+html, body {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina relleno predeterminado */
+    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+    width: 100%; /* Asegura que ocupen todo el ancho */
+}
+
+
+
+
+nav img{
+    max-height: 50px;
+}
+
+.beige{
+    background-color: #F4F1DE;
+}
+.bienvenida{
+    background: url("../img/puesta_sol.webp") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+article img{
+    height: 15em;
+}
+.card{
+    margin: 0.1em;
+    margin-bottom: 1.5em;
+    
+}
+#aeropuerto{
+    height: 15em;
+}
+.imgCarr{
+    height: 40em;
+}
+.txtCar{
+    display: inline-block;
+    background-color: #F4F1DE;
+    color:rgba(0, 0, 0, 0.763)
+}
+.btnMore{
+    margin-top: 2em;
+}
+.imgSafari{
+    width: 16em;
+    height: 10em;
+}
+/* hacemos una mediaquery para que cuando alcancemos x tamaño el carrusel no sea tan ancho */
+@media (min-width: 1080px){
+    .carousel{
+    width: 70%;
+}
+}
+.video{
+    margin-top: 3em;
+}
+
+/* @media (min-width: 00px) and (max-width: 576px) {
+    .visita{
+        font-size: larger;
+    }
+    .parrafoVisita {
+        font-size: larger; 
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .visita{
+        font-size: xx-large;
+    }
+} */
