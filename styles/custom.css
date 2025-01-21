@@ -16,6 +16,9 @@ nav img{
 .beige{
     background-color: #F4F1DE;
 }
+.salmon{
+    background-color: #faa786 ;
+}
 .bienvenida{
     background: url("../img/puesta_sol.webp") no-repeat center;
     background-size: cover;
@@ -24,6 +27,7 @@ nav img{
 }
 article img{
     height: 15em;
+    
 }
 .card{
     margin: 0.1em;
@@ -48,12 +52,23 @@ article img{
     width: 16em;
     height: 10em;
 }
+.btnSafari{
+    margin: 2em;
+}
 /* hacemos una mediaquery para que cuando alcancemos x tamaño el carrusel no sea tan ancho */
 @media (min-width: 1080px){
     .carousel{
     width: 70%;
+    object-fit: cover;
 }
 }
+/* hacemos una mediaquery para reducir el alto del carousel */
+@media (max-width: 576px) {
+    .carousel-inner img {
+      height: 300px; 
+      object-fit: cover; 
+    }
+  }
 .video{
     margin-top: 3em;
 }
