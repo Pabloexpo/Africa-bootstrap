@@ -1,29 +1,33 @@
-
+/* vamos a añadir la fuente estilo tribu africana  */
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bungee&display=swap');
 html, body {
-    margin: 0; /* Elimina márgenes predeterminados */
-    padding: 0; /* Elimina relleno predeterminado */
     overflow-x: hidden; /* Oculta el desbordamiento horizontal */
-    width: 100%; /* Asegura que ocupen todo el ancho */
+    font-family: 'Amarante', sans-serif;
+}
+h1, h2, h3, h4, h5, th{
+    /* Elegimos Bungee para los títulos porque se asemeja al rótulo del vídeo, para mantener concordancia con él */
+    font-family: 'Bungee', sans-serif;
 }
 
-
-
-
 nav img{
-    max-height: 50px;
+    max-height: 80px;
+}
+nav{
+    font-size: 1.5em;
 }
 
 .beige{
     background-color: #F4F1DE;
 }
 .salmon{
-    background-color: #faa786 ;
+    background-color: #f3642b ;
 }
 .bienvenida{
-    background: url("../img/puesta_sol.webp") no-repeat center;
+    background: url("../img/atardecer.webp") no-repeat center top;
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+
 }
 article img{
     height: 15em;
