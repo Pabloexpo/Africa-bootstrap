@@ -1,4 +1,4 @@
-/* vamos a añadir la fuente estilo tribu africana  */
+/* vamos a añadir las fuentes estilo tribu africana  */
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bungee&display=swap');
 html, body {
     overflow-x: hidden; /* Oculta el desbordamiento horizontal */
@@ -73,21 +73,3 @@ article img{
       object-fit: cover; 
     }
   }
-
-.video{
-    margin-top: 3em;
-}
-
-/* @media (min-width: 00px) and (max-width: 576px) {
-    .visita{
-        font-size: larger;
-    }
-    .parrafoVisita {
-        font-size: larger; 
-    }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-    .visita{
-        font-size: xx-large;
-    }
-} */
