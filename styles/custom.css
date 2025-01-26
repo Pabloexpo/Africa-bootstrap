@@ -1,7 +1,7 @@
 /* vamos a añadir las fuentes estilo tribu africana  */
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Bungee&display=swap');
 html, body {
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+
     font-family: 'Amarante', sans-serif;
 }
 h1, h2, h3, h4, h5, th{
@@ -40,6 +40,7 @@ article img{
 }
 #aeropuerto{
     height: 15em;
+    width: 100%;
 }
 .imgCarr{
     height: 40em;
